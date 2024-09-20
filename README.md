@@ -20,7 +20,7 @@ This repository serves as a template for anyone looking to create a multipage an
 
 1. **Clone the repository**:
 
-    ```bash
+    ```
 
     git clone https://github.com/Joao-mts/Dash-Auth-MultiPage.git
 
@@ -32,10 +32,8 @@ This repository serves as a template for anyone looking to create a multipage an
 
 2. **Install Dependencies**:
 
-    ```bash
-
+    ```
     pip install -r requirements.txt
-
     ```
 
   
