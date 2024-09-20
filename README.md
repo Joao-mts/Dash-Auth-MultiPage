@@ -1,7 +1,5 @@
 # Dash-Auth-MultiPage
 
- 
-
 This repository serves as a template for anyone looking to create a multipage and/or authenticated Dash app. I personally dislike dash bootstrap components, so i am using [dash-mantime-components](https://github.com/snehilvj/dash-mantine-components) for styling, and a [custom css navbar](https://codepen.io/fadzrinmadu/pen/bGqrJjB). The app includes the following features:
 
 - **Multipage Structure**: Easily set up multiple pages within your Dash app.
@@ -11,40 +9,6 @@ This repository serves as a template for anyone looking to create a multipage an
 - **URL Parameters**: Create dynamic layouts using URL parameters.
 
 - **Custom Navbar**: Custom navbar with multiple links and menu.
-
-  
-
-## Getting Started
-
-  
-
-1. **Clone the repository**:
-
-    ```
-
-    git clone https://github.com/Joao-mts/Dash-Auth-MultiPage.git
-
-    cd Dash-Auth-MultiPage
-
-    ```
-
-  
-
-2. **Install Dependencies**:
-
-    ```
-    pip install -r requirements.txt
-    ```
-
-  
-
-3. **Run the App**:
-
-    ```bash
-
-    python app.py
-
-    ```
 
 ---
 
@@ -81,7 +45,6 @@ This application includes a custom-built authentication system using JWT (JSON W
 By default, when a user creates an account, they are automatically marked as valid (`is_valid: True`). If your application requires additional verification steps (e.g., email confirmation), you may want to modify this behavior. Set `is_valid` to `False` upon registration and implement a verification process where users must authenticate themselves (such as clicking a verification link) before their account is fully activated.
 
 ## Contributing
-  
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
 
